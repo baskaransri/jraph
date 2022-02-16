@@ -42,7 +42,6 @@ setup(
     packages=find_namespace_packages(exclude=['*_test.py']),
     package_data={'jraph': ['ogb_examples/test_data/*']},
     install_requires=[
-        'python_version>="3.6"',
         'jax>=0.1.55',
         'jaxlib>=0.1.37',
         'numpy>=1.18.0',
